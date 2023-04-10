@@ -41,7 +41,7 @@ function App() {
                 <Route path='/blogs' element={<BlogDisplay />} />
                 <Route path='/login' element={<Login flashMessage={flashMessage} logUserIn={setLoggedIn} />} />
                 <Route path='/create' element={<CreatePost flashMessage={flashMessage} loggedIn={loggedIn} />} />
-                <Route path='/blogs/:postId' element={<SinglePost />} />
+                <Route path='/posts/:postId' element={<SinglePost />} />
             </Routes>
           </div>
       </div>
